@@ -104,6 +104,7 @@
 		FA6DC1CF197B7D9700D2300F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DC1CE197B7D9700D2300F /* SystemConfiguration.framework */; };
 		FA6DC1D1197B7D9D00D2300F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DC1D0197B7D9D00D2300F /* libz.dylib */; };
 		FA6DC1D3197B885C00D2300F /* GoTo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6DC1D2197B885C00D2300F /* GoTo.storyboard */; };
+		FAA8AC80197BDDF20087B1D2 /* GTOAddGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC7F197BDDF20087B1D2 /* GTOAddGroupTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -345,6 +346,8 @@
 		FA6DC1CE197B7D9700D2300F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FA6DC1D0197B7D9D00D2300F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		FA6DC1D2197B885C00D2300F /* GoTo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoTo.storyboard; sourceTree = "<group>"; };
+		FAA8AC7E197BDDF20087B1D2 /* GTOAddGroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTOAddGroupTableViewController.h; sourceTree = "<group>"; };
+		FAA8AC7F197BDDF20087B1D2 /* GTOAddGroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTOAddGroupTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,6 +435,8 @@
 			children = (
 				FA6DC1C8197B643F00D2300F /* main.storyboard */,
 				FA6DC1D2197B885C00D2300F /* GoTo.storyboard */,
+				FAA8AC7E197BDDF20087B1D2 /* GTOAddGroupTableViewController.h */,
+				FAA8AC7F197BDDF20087B1D2 /* GTOAddGroupTableViewController.m */,
 				FA6DC1C5197B637B00D2300F /* GTOTableViewController.h */,
 				FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */,
 				0122C513197BB60400963D60 /* GTOUIViewController.h */,
@@ -923,6 +928,7 @@
 				01EECADE197B48BA0033E677 /* PNConnectionChannel.m in Sources */,
 				01EEA455197B42690033E677 /* GTOAppDelegate.m in Sources */,
 				01EECAD4197B48BA0033E677 /* PNPushNotificationsRemoveRequest.m in Sources */,
+				FAA8AC80197BDDF20087B1D2 /* GTOAddGroupTableViewController.m in Sources */,
 				01EECADB197B48BA0033E677 /* PNReachability.m in Sources */,
 				01EECAB0197B48BA0033E677 /* PNCache.m in Sources */,
 				FA6DC1C7197B637B00D2300F /* GTOTableViewController.m in Sources */,

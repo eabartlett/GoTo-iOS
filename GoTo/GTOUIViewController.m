@@ -10,6 +10,8 @@
 
 @interface GTOUIViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *viewGroups;
+
 @end
 
 @implementation GTOUIViewController
@@ -28,9 +30,10 @@
     [super viewDidLoad];
     FBLoginView *loginView = [[FBLoginView alloc] init];
     // Align the button in the center horizontally
-    loginView.frame = CGRectOffset(loginView.frame, (self.view.center.x - (loginView.frame.size.width / 2)), 20);
+    loginView.frame = CGRectOffset(loginView.frame, (self.view.center.x - (loginView.frame.size.width / 2)), self.view.center.y);
     [self.view addSubview:loginView];
     self.loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
+    
 }
 
 - (void)didReceiveMemoryWarning
