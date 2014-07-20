@@ -100,6 +100,8 @@
 		01EECADC197B48BA0033E677 /* PNServiceChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EECA90197B48BA0033E677 /* PNServiceChannel.m */; };
 		01EECADD197B48BA0033E677 /* PNConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EECA94197B48BA0033E677 /* PNConnection.m */; };
 		01EECADE197B48BA0033E677 /* PNConnectionChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EECA97197B48BA0033E677 /* PNConnectionChannel.m */; };
+		FA6DC1C7197B637B00D2300F /* GTOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */; };
+		FA6DC1C9197B643F00D2300F /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6DC1C8197B643F00D2300F /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -331,6 +333,9 @@
 		01EECA95197B48BA0033E677 /* PNConnectionChannel+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PNConnectionChannel+Protected.h"; sourceTree = "<group>"; };
 		01EECA96197B48BA0033E677 /* PNConnectionChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNConnectionChannel.h; sourceTree = "<group>"; };
 		01EECA97197B48BA0033E677 /* PNConnectionChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNConnectionChannel.m; sourceTree = "<group>"; };
+		FA6DC1C5197B637B00D2300F /* GTOTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTOTableViewController.h; path = ../GTOTableViewController.h; sourceTree = "<group>"; };
+		FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTOTableViewController.m; path = ../GTOTableViewController.m; sourceTree = "<group>"; };
+		FA6DC1C8197B643F00D2300F /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,6 +414,9 @@
 		01EEA44A197B42690033E677 /* GoTo */ = {
 			isa = PBXGroup;
 			children = (
+				FA6DC1C8197B643F00D2300F /* main.storyboard */,
+				FA6DC1C5197B637B00D2300F /* GTOTableViewController.h */,
+				FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */,
 				01647701197B4D680094FEAF /* Model */,
 				01EEA453197B42690033E677 /* GTOAppDelegate.h */,
 				01EEA454197B42690033E677 /* GTOAppDelegate.m */,
@@ -839,6 +847,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01EEA44F197B42690033E677 /* InfoPlist.strings in Resources */,
+				FA6DC1C9197B643F00D2300F /* main.storyboard in Resources */,
 				01EEA45A197B42690033E677 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -898,6 +907,7 @@
 				01EECAD4197B48BA0033E677 /* PNPushNotificationsRemoveRequest.m in Sources */,
 				01EECADB197B48BA0033E677 /* PNReachability.m in Sources */,
 				01EECAB0197B48BA0033E677 /* PNCache.m in Sources */,
+				FA6DC1C7197B637B00D2300F /* GTOTableViewController.m in Sources */,
 				01EECAB5197B48BA0033E677 /* PNError.m in Sources */,
 				01EECAD8197B48BA0033E677 /* PNWhereNowRequest.m in Sources */,
 				01EECACE197B48BA0033E677 /* PNHereNowRequest.m in Sources */,
