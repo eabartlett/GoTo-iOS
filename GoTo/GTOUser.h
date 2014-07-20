@@ -15,8 +15,6 @@
 @property (strong, nonatomic) NSString *firstname;
 @property (strong, nonatomic) NSString *lastname;
 
-/** Login via Facebook. */
-- (void) login;
 
 /** Invite friends to a new or existing group. */
 - (void) inviteFriends:(NSArray *)friends group:(NSString *)name;

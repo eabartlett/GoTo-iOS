@@ -105,6 +105,7 @@
 		FA6DC1D1197B7D9D00D2300F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DC1D0197B7D9D00D2300F /* libz.dylib */; };
 		FA6DC1D3197B885C00D2300F /* GoTo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6DC1D2197B885C00D2300F /* GoTo.storyboard */; };
 		FAA8AC80197BDDF20087B1D2 /* GTOAddGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC7F197BDDF20087B1D2 /* GTOAddGroupTableViewController.m */; };
+		FAA8AC89197C065E0087B1D2 /* GTOUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AC88197C065E0087B1D2 /* GTOUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -348,6 +349,8 @@
 		FA6DC1D2197B885C00D2300F /* GoTo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoTo.storyboard; sourceTree = "<group>"; };
 		FAA8AC7E197BDDF20087B1D2 /* GTOAddGroupTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTOAddGroupTableViewController.h; sourceTree = "<group>"; };
 		FAA8AC7F197BDDF20087B1D2 /* GTOAddGroupTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTOAddGroupTableViewController.m; sourceTree = "<group>"; };
+		FAA8AC87197C065E0087B1D2 /* GTOUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTOUtil.h; path = ../GTOUtil.h; sourceTree = "<group>"; };
+		FAA8AC88197C065E0087B1D2 /* GTOUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTOUtil.m; path = ../GTOUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,6 +436,8 @@
 		01EEA44A197B42690033E677 /* GoTo */ = {
 			isa = PBXGroup;
 			children = (
+				FAA8AC87197C065E0087B1D2 /* GTOUtil.h */,
+				FAA8AC88197C065E0087B1D2 /* GTOUtil.m */,
 				FA6DC1C8197B643F00D2300F /* main.storyboard */,
 				FA6DC1D2197B885C00D2300F /* GoTo.storyboard */,
 				FAA8AC7E197BDDF20087B1D2 /* GTOAddGroupTableViewController.h */,
@@ -945,6 +950,7 @@
 				01EECA9E197B48BA0033E677 /* PNCryptoHelper.m in Sources */,
 				01EECAD1197B48BA0033E677 /* PNMessageHistoryRequest.m in Sources */,
 				01EECAD7197B48BA0033E677 /* PNTimeTokenRequest.m in Sources */,
+				FAA8AC89197C065E0087B1D2 /* GTOUtil.m in Sources */,
 				01EECABA197B48BA0033E677 /* PNOperationStatus.m in Sources */,
 				01EECADA197B48BA0033E677 /* PNNetworkHelper.m in Sources */,
 				01EECA9F197B48BA0033E677 /* PNAccessRightsResponseParser.m in Sources */,

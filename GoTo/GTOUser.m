@@ -24,11 +24,6 @@
     return self;
 }
 
-- (void)login
-{
-    
-}
-
 - (void)inviteFriends:(NSArray *)friends group:(NSString *)name
 {
     
