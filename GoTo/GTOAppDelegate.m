@@ -25,8 +25,6 @@
     self.window.rootViewController = vc;
     
     [FBLoginView class];
-    FBLoginView *loginView = [[FBLoginView alloc] init];
-    loginView.delegate = self;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

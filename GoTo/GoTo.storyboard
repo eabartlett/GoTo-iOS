@@ -51,13 +51,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="4C7-kh-5Lu" customClass="FBLoginView">
+                            <view contentMode="scaleToFill" id="4C7-kh-5Lu">
                                 <rect key="frame" x="20" y="84" width="280" height="55"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="delegate" destination="8Qy-M3-kO4" id="cnH-s2-wqr"/>
-                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
