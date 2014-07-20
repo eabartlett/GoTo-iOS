@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0122C515197BB60400963D60 /* GTOUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122C514197BB60400963D60 /* GTOUIViewController.m */; };
 		016476FE197B4D3C0094FEAF /* GTOEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 016476FA197B4D3C0094FEAF /* GTOEvent.m */; };
 		01647700197B4D3C0094FEAF /* GTOGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 016476FC197B4D3C0094FEAF /* GTOGroup.m */; };
 		01647705197B4DAB0094FEAF /* GTOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01647703197B4DAB0094FEAF /* GTOUser.m */; };
@@ -116,6 +117,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0122C513197BB60400963D60 /* GTOUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTOUIViewController.h; sourceTree = "<group>"; };
+		0122C514197BB60400963D60 /* GTOUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTOUIViewController.m; sourceTree = "<group>"; };
 		016476F9197B4D3C0094FEAF /* GTOEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTOEvent.h; sourceTree = "<group>"; };
 		016476FA197B4D3C0094FEAF /* GTOEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTOEvent.m; sourceTree = "<group>"; };
 		016476FB197B4D3C0094FEAF /* GTOGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTOGroup.h; sourceTree = "<group>"; };
@@ -431,6 +434,8 @@
 				FA6DC1D2197B885C00D2300F /* GoTo.storyboard */,
 				FA6DC1C5197B637B00D2300F /* GTOTableViewController.h */,
 				FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */,
+				0122C513197BB60400963D60 /* GTOUIViewController.h */,
+				0122C514197BB60400963D60 /* GTOUIViewController.m */,
 				01647701197B4D680094FEAF /* Model */,
 				01EEA453197B42690033E677 /* GTOAppDelegate.h */,
 				01EEA454197B42690033E677 /* GTOAppDelegate.m */,
@@ -897,6 +902,7 @@
 				01EECAD0197B48BA0033E677 /* PNLeaveRequest.m in Sources */,
 				01EECAC7197B48BA0033E677 /* PNLogger.m in Sources */,
 				01EECAA9197B48BA0033E677 /* PNResponseDeserialize.m in Sources */,
+				0122C515197BB60400963D60 /* GTOUIViewController.m in Sources */,
 				01EECAAD197B48BA0033E677 /* PNAccessRightOptions.m in Sources */,
 				01EECA9A197B48BA0033E677 /* PNWriteBuffer.m in Sources */,
 				01EECAA4197B48BA0033E677 /* PNClientStateUpdateResponseParser.m in Sources */,

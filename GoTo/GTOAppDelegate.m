@@ -24,12 +24,24 @@
     UIViewController *vc =[storyboard instantiateInitialViewController];
     self.window.rootViewController = vc;
     
+    [FBLoginView class];
+    FBLoginView *loginView = [[FBLoginView alloc] init];
+    loginView.delegate = self;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
     [PubNub setDelegate:self];
     
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    // Call FBAppCall's handleOpenURL:sourceApplication to handle Facebook app responses
+    BOOL wasHandled = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+    
+    return wasHandled;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
