@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        
     }
     return self;
 }
@@ -26,7 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    FBLoginView *loginView = [[FBLoginView alloc] init];
+    // Align the button in the center horizontally
+    loginView.frame = CGRectOffset(loginView.frame, (self.view.center.x - (loginView.frame.size.width / 2)), 20);
+    [self.view addSubview:loginView];
     self.loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
 }
 

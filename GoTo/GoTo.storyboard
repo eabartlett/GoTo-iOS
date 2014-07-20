@@ -7,7 +7,7 @@
         <!--Table View Controller - Groups-->
         <scene sceneID="bpK-B5-inp">
             <objects>
-                <tableViewController id="Du1-xL-RxO" sceneMemberID="viewController">
+                <tableViewController id="Du1-xL-RxO" customClass="GTOTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="GJt-T4-bFg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,17 +46,10 @@
         <!--View Controller-->
         <scene sceneID="H3q-eK-S5k">
             <objects>
-                <viewController id="8Qy-M3-kO4" sceneMemberID="viewController">
+                <viewController id="8Qy-M3-kO4" customClass="GTOUIViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o1t-Ze-4AF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="4C7-kh-5Lu">
-                                <rect key="frame" x="20" y="84" width="280" height="55"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
