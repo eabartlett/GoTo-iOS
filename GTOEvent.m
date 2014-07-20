@@ -34,11 +34,4 @@
     return self;
 }
 
-- (void) sendEvent
-{
-    
-}
-
-
-
 @end

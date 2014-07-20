@@ -10,4 +10,14 @@
 
 @implementation GTOGroup
 
+- (instancetype) initWithDictionary:(NSDictionary *)dict
+{
+    self = [super init];
+    if (self) {
+        _id = dict[@"id"];
+        _channel = dict[@"channel"];
+    }
+    return self;
+}
+
 @end

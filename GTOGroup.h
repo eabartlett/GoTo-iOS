@@ -10,4 +10,8 @@
 
 @interface GTOGroup : NSObject
 
+@property (nonatomic, readonly) NSNumber *id;
+@property (nonatomic, readonly) NSString *channel;
+
+- (instancetype) initWithDictionary:(NSDictionary *)dict;
 @end

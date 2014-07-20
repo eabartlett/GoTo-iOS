@@ -20,7 +20,7 @@
     
     // Override point for customization after application launch.
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"main" bundle:[NSBundle mainBundle]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"GoTo" bundle:[NSBundle mainBundle]];
     UIViewController *vc =[storyboard instantiateInitialViewController];
     self.window.rootViewController = vc;
     
