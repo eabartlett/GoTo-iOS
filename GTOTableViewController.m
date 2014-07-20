@@ -32,6 +32,26 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    // #1 Define client configuration
+    PNConfiguration *myConfig = [PNConfiguration configurationForOrigin:@"pubsub.pubnub.com"
+                                                             publishKey:@"demo"
+                                                           subscribeKey:@"demo"
+                                                              secretKey:nil];
+    [PubNub setConfiguration:myConfig];
+    
+    [PubNub connect];
+    
+    [[PNObservationCenter defaultCenter] addClientConnectionStateObserver:self withCallbackBlock:^(NSString *origin, BOOL connected, PNError *connectionError){
+        if (connected)
+        {
+            NSLog(@"OBSERVER: Successful Connection!");
+        }
+        else if (!connected || connectionError)
+        {
+            NSLog(@"OBSERVER: Error %@, Connection Failed!", connectionError.localizedDescription);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning

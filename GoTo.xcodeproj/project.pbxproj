@@ -28,7 +28,6 @@
 		01EEA464197B42690033E677 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEA448197B42690033E677 /* CoreData.framework */; };
 		01EEA46C197B426A0033E677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01EEA46A197B426A0033E677 /* InfoPlist.strings */; };
 		01EEA46E197B426A0033E677 /* GoToTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEA46D197B426A0033E677 /* GoToTests.m */; };
-		01EEA478197B470A0033E677 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEA477197B470A0033E677 /* FacebookSDK.framework */; };
 		01EECA98197B48BA0033E677 /* PNObservationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEC9CD197B48BA0033E677 /* PNObservationCenter.m */; };
 		01EECA99197B48BA0033E677 /* PubNub.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEC9D0197B48BA0033E677 /* PubNub.m */; };
 		01EECA9A197B48BA0033E677 /* PNWriteBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEC9D4197B48BA0033E677 /* PNWriteBuffer.m */; };
@@ -102,6 +101,11 @@
 		01EECADE197B48BA0033E677 /* PNConnectionChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EECA97197B48BA0033E677 /* PNConnectionChannel.m */; };
 		FA6DC1C7197B637B00D2300F /* GTOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */; };
 		FA6DC1C9197B643F00D2300F /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6DC1C8197B643F00D2300F /* main.storyboard */; };
+		FA6DC1CB197B793C00D2300F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DC1CA197B793C00D2300F /* FacebookSDK.framework */; };
+		FA6DC1CD197B7D8800D2300F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DC1CC197B7D8800D2300F /* CFNetwork.framework */; };
+		FA6DC1CF197B7D9700D2300F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DC1CE197B7D9700D2300F /* SystemConfiguration.framework */; };
+		FA6DC1D1197B7D9D00D2300F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DC1D0197B7D9D00D2300F /* libz.dylib */; };
+		FA6DC1D3197B885C00D2300F /* GoTo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6DC1D2197B885C00D2300F /* GoTo.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -336,6 +340,11 @@
 		FA6DC1C5197B637B00D2300F /* GTOTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTOTableViewController.h; path = ../GTOTableViewController.h; sourceTree = "<group>"; };
 		FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTOTableViewController.m; path = ../GTOTableViewController.m; sourceTree = "<group>"; };
 		FA6DC1C8197B643F00D2300F /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		FA6DC1CA197B793C00D2300F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		FA6DC1CC197B7D8800D2300F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA6DC1CE197B7D9700D2300F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA6DC1D0197B7D9D00D2300F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FA6DC1D2197B885C00D2300F /* GoTo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoTo.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,7 +352,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01EEA478197B470A0033E677 /* FacebookSDK.framework in Frameworks */,
+				FA6DC1D1197B7D9D00D2300F /* libz.dylib in Frameworks */,
+				FA6DC1CF197B7D9700D2300F /* SystemConfiguration.framework in Frameworks */,
+				FA6DC1CD197B7D8800D2300F /* CFNetwork.framework in Frameworks */,
+				FA6DC1CB197B793C00D2300F /* FacebookSDK.framework in Frameworks */,
 				01EEA445197B42690033E677 /* CoreGraphics.framework in Frameworks */,
 				01EEA449197B42690033E677 /* CoreData.framework in Frameworks */,
 				01EEA447197B42690033E677 /* UIKit.framework in Frameworks */,
@@ -401,6 +413,10 @@
 		01EEA441197B42690033E677 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA6DC1D0197B7D9D00D2300F /* libz.dylib */,
+				FA6DC1CE197B7D9700D2300F /* SystemConfiguration.framework */,
+				FA6DC1CC197B7D8800D2300F /* CFNetwork.framework */,
+				FA6DC1CA197B793C00D2300F /* FacebookSDK.framework */,
 				01EEA477197B470A0033E677 /* FacebookSDK.framework */,
 				01EEA442197B42690033E677 /* Foundation.framework */,
 				01EEA444197B42690033E677 /* CoreGraphics.framework */,
@@ -415,6 +431,7 @@
 			isa = PBXGroup;
 			children = (
 				FA6DC1C8197B643F00D2300F /* main.storyboard */,
+				FA6DC1D2197B885C00D2300F /* GoTo.storyboard */,
 				FA6DC1C5197B637B00D2300F /* GTOTableViewController.h */,
 				FA6DC1C6197B637B00D2300F /* GTOTableViewController.m */,
 				01647701197B4D680094FEAF /* Model */,
@@ -849,6 +866,7 @@
 				01EEA44F197B42690033E677 /* InfoPlist.strings in Resources */,
 				FA6DC1C9197B643F00D2300F /* main.storyboard in Resources */,
 				01EEA45A197B42690033E677 /* Images.xcassets in Resources */,
+				FA6DC1D3197B885C00D2300F /* GoTo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,7 +1084,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/ebartlett/workspace/learning/iOS,
+					/Users/Alex/Desktop/iOS,
+					/Users/Alex/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoTo/GoTo-Prefix.pch";
@@ -1083,7 +1102,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/ebartlett/workspace/learning/iOS,
+					/Users/Alex/Desktop/iOS,
+					/Users/Alex/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoTo/GoTo-Prefix.pch";
