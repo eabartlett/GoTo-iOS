@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016476FD197B4D3C0094FEAF /* GTOEvent.h in Sources */ = {isa = PBXBuildFile; fileRef = 016476F9197B4D3C0094FEAF /* GTOEvent.h */; };
+		016476FE197B4D3C0094FEAF /* GTOEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 016476FA197B4D3C0094FEAF /* GTOEvent.m */; };
+		016476FF197B4D3C0094FEAF /* GTOGroup.h in Sources */ = {isa = PBXBuildFile; fileRef = 016476FB197B4D3C0094FEAF /* GTOGroup.h */; };
+		01647700197B4D3C0094FEAF /* GTOGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 016476FC197B4D3C0094FEAF /* GTOGroup.m */; };
+		01647704197B4DAB0094FEAF /* GTOUser.h in Sources */ = {isa = PBXBuildFile; fileRef = 01647702197B4DAB0094FEAF /* GTOUser.h */; };
+		01647705197B4DAB0094FEAF /* GTOUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01647703197B4DAB0094FEAF /* GTOUser.m */; };
 		01EEA443197B42690033E677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEA442197B42690033E677 /* Foundation.framework */; };
 		01EEA445197B42690033E677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEA444197B42690033E677 /* CoreGraphics.framework */; };
 		01EEA447197B42690033E677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEA446197B42690033E677 /* UIKit.framework */; };
@@ -107,6 +113,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016476F9197B4D3C0094FEAF /* GTOEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTOEvent.h; sourceTree = "<group>"; };
+		016476FA197B4D3C0094FEAF /* GTOEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTOEvent.m; sourceTree = "<group>"; };
+		016476FB197B4D3C0094FEAF /* GTOGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTOGroup.h; sourceTree = "<group>"; };
+		016476FC197B4D3C0094FEAF /* GTOGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTOGroup.m; sourceTree = "<group>"; };
+		01647702197B4DAB0094FEAF /* GTOUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTOUser.h; path = GoTo/GTOUser.h; sourceTree = "<group>"; };
+		01647703197B4DAB0094FEAF /* GTOUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GTOUser.m; path = GoTo/GTOUser.m; sourceTree = "<group>"; };
 		01EEA43F197B42690033E677 /* GoTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01EEA442197B42690033E677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01EEA444197B42690033E677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -348,6 +360,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01647701197B4D680094FEAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01647702197B4DAB0094FEAF /* GTOUser.h */,
+				01647703197B4DAB0094FEAF /* GTOUser.m */,
+				016476F9197B4D3C0094FEAF /* GTOEvent.h */,
+				016476FA197B4D3C0094FEAF /* GTOEvent.m */,
+				016476FB197B4D3C0094FEAF /* GTOGroup.h */,
+				016476FC197B4D3C0094FEAF /* GTOGroup.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		01EEA436197B42690033E677 = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +409,7 @@
 		01EEA44A197B42690033E677 /* GoTo */ = {
 			isa = PBXGroup;
 			children = (
+				01647701197B4D680094FEAF /* Model */,
 				01EEA453197B42690033E677 /* GTOAppDelegate.h */,
 				01EEA454197B42690033E677 /* GTOAppDelegate.m */,
 				01EEA459197B42690033E677 /* Images.xcassets */,
@@ -831,6 +858,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01647704197B4DAB0094FEAF /* GTOUser.h in Sources */,
+				01647705197B4DAB0094FEAF /* GTOUser.m in Sources */,
+				016476FD197B4D3C0094FEAF /* GTOEvent.h in Sources */,
+				016476FE197B4D3C0094FEAF /* GTOEvent.m in Sources */,
+				016476FF197B4D3C0094FEAF /* GTOGroup.h in Sources */,
+				01647700197B4D3C0094FEAF /* GTOGroup.m in Sources */,
 				01EECAD6197B48BA0033E677 /* PNSubscribeRequest.m in Sources */,
 				01EECABE197B48BA0033E677 /* NSArray+PNAdditions.m in Sources */,
 				01EECAD3197B48BA0033E677 /* PNPushNotificationsEnabledChannelsRequest.m in Sources */,
@@ -1109,6 +1142,7 @@
 				01EEA473197B426A0033E677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01EEA474197B426A0033E677 /* Build configuration list for PBXNativeTarget "GoToTests" */ = {
 			isa = XCConfigurationList;
@@ -1117,6 +1151,7 @@
 				01EEA476197B426A0033E677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
