@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GTOAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GTOAppDelegate : UIResponder <UIApplicationDelegate, PNDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
