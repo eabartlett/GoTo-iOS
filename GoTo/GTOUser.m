@@ -10,6 +10,20 @@
 
 @implementation GTOUser
 
+- (instancetype)initWithDictionary:(NSDictionary *)dict
+{
+    self = [super init];
+    
+    if (self) {
+        _username = dict[@"username"];
+        _password = dict[@"password"];
+        _firstname = dict[@"firstname"];
+        _lastname = dict[@"lastname"];
+    }
+    
+    return self;
+}
+
 - (void)login
 {
     
